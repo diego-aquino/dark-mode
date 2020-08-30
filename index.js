@@ -21,12 +21,12 @@ function handleCheckboxChange() {
 function changeTheme(colors) {
     Object.keys(colors).map(colorName => {
         root.style.setProperty(
-            transformColorName(colorName),
+            formatColorName(colorName),
             colors[colorName]
         );
     });
 }
 
-function transformColorName(colorName) {
+function formatColorName(colorName) {
     return '--' + colorName.replace(/([A-Z])/, '-$1').toLowerCase();
 }
