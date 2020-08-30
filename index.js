@@ -1,11 +1,13 @@
 const root = document.querySelector(':root');
 const checkbox = document.querySelector('input[name=theme]');
 
-checkbox.addEventListener('change', () => {
+checkbox.addEventListener('change', handleCheckboxChange);
+
+function handleCheckboxChange() {
     checkbox.checked ?
         changeTheme(darkThemeColors) :
         changeTheme(lightThemeColors);
-});
+}
 
 const lightThemeColors = {
     primaryBackground: getStyleValue(root, '--primary-background'),
