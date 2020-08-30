@@ -26,7 +26,7 @@ body {
 
     background-color: var(--primary-background);
 
-    transition: background-color 0.2s;
+    transition: background-color 0.35s;
 }
 
 .container {
@@ -47,6 +47,7 @@ body {
     ;
 
     background-color: var(--panel-background);
+    transition: inherit;
 }
 
 h1 {
