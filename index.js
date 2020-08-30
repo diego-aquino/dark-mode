@@ -3,6 +3,13 @@ const checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', handleCheckboxChange);
 
+window.addEventListener('keydown', ({ key }) => {
+    if (key == 'Enter') {
+        checkbox.checked = !checkbox.checked;
+        handleCheckboxChange();
+    }
+});
+
 function handleCheckboxChange() {
     checkbox.checked ?
         changeTheme(darkThemeColors) :
