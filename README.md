@@ -52,6 +52,10 @@ Now you visit `http://localhost:8080` and switch themes!
 
 This project if under MIT License. Check [LICENSE](./LICENSE) for more information.
 
+## :handshake: Acknowledgments
+
+Especial thanks to [@maykbrito](https://github.com/maykbrito) and [Rocketseat](https://rocketseat.com.br/) for the masterclass [Dark Mode raiz com CSS e JavaScript](https://www.youtube.com/watch?v=BvhYm0BOLvA). Your content is always outstanding!
+
 ---
 
 Made by [Diego Aquino](https://github.com/diego-aquino/) :sunglasses:. [Connect with me!](https://www.linkedin.com/in/diego-aquino) :wave:
