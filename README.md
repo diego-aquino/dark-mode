@@ -46,7 +46,7 @@ $ npm install --global http-server
 $ http-server
 ```
 
-Now you visit `http://localhost:8080` and switch themes!
+Now you can visit `http://localhost:8080` and switch themes!
 
 ## :newspaper_roll: License
 
